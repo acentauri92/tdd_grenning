@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Run Tests",
+			"command": "make",
+			"args": [
+				"-C",
+				"${workspaceFolder}/test"
+			],
+			"group": "build",
+		},
+		{
+			"type": "cppbuild",
+			"label": "Clean Tests",
+			"command": "make",
+			"args": [
+				"-C",
+				"${workspaceFolder}/test",
+				"clean"
+			],
+			"group": "build",
+		}
+	]
+}
